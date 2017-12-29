@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:coolBreeze="clr-namespace:CoolBreeze;assembly=CoolBreeze"
+            x:Class="CoolBreeze.StartPage">
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="FORECAST"
+                     Order="Primary"
+                     Icon="forecast.png"
+                     Clicked="ViewForecastClicked" />
+    </TabbedPage.ToolbarItems>
+    <TabbedPage.Children>
+        <coolBreeze:LocationPage Icon="location.png"
+                                 Title="LOCATION" />
+        <coolBreeze:MainPage Icon="today.png"
+                             Title="NOW" />
+    </TabbedPage.Children>
+</TabbedPage>
