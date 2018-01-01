@@ -21,9 +21,9 @@
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>MinimumOSVersion</key>
-	<string>8.0</string>
+	<string>9.0</string>
 	<key>CFBundleDisplayName</key>
-	<string>CoolBreeze</string>
+	<string>Cool Breeze</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.yourcompany.CoolBreeze</string>
 	<key>CFBundleVersion</key>
