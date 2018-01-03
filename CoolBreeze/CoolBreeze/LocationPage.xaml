@@ -36,6 +36,7 @@
             <Picker Title="Select a city"
                     x:Name="cityPicker"
                     SelectedIndexChanged="SelectedCityChanged"
+                    SelectedIndex="0"
                     WidthRequest="300"
                     HorizontalOptions="StartAndExpand">
                 <Picker.Items>
