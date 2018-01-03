@@ -50,7 +50,7 @@
 	<string>LaunchScreen</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string>Please allow CoolBreeze to use your current location.</string>
-<!--  <key>NSLocationWhenInUseUsageDescription</key>-->
-<!--  <string>This app needs access to Location</string>-->
+  <key>NSLocationWhenInUseUsageDescription</key>
+  <string>This app needs access to Location</string>
 </dict>
 </plist>
