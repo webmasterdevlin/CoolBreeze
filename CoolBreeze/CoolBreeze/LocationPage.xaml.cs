@@ -19,7 +19,11 @@ namespace CoolBreeze
 
         protected override void OnAppearing()
         {
-            if (cityPicker.SelectedIndex < 0) cityPicker.SelectedIndex = 0;
+            if (!App.ViewModel.IsBusy)
+            {
+                if (cityPicker.SelectedIndex < 0) cityPicker.SelectedIndex = 0;
+            }
+            App.ViewModel.IsBusy = false;
             base.OnAppearing();
         }
 
