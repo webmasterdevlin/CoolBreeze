@@ -18,7 +18,9 @@ namespace CoolBreeze
         protected override void OnAppearing()
         {
             this.BindingContext = App.ViewModel;
+
             if (App.ViewModel.NeedsRefresh) App.ViewModel.RefreshCurrentConditionsAsync();
+           
             base.OnAppearing();
         }
 
